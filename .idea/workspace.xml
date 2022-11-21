@@ -4,11 +4,14 @@
     <list default="true" id="eeb0f16c-77c8-40ba-98d6-6ff7e2fadc12" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../..//Java_bootcamp/calculator_java/out/production/calculator_java/Calculator.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../..//Java_bootcamp/calculator_java/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//Java_bootcamp/workout3/src/CountMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//Java_bootcamp/workout3/src/strLenCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../..//$RECYCLE.BIN/S-1-5-21-402009940-1600143075-2749176440-1007/$I6HDI7E.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../..//$RECYCLE.BIN/S-1-5-21-402009940-1600143075-2749176440-1007/$IK559ZJ.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../..//$RECYCLE.BIN/S-1-5-21-402009940-1600143075-2749176440-1007/$R6HDI7E.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../..//$RECYCLE.BIN/S-1-5-21-402009940-1600143075-2749176440-1007/$RK559ZJ.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../..//Java_bootcamp/calculator_java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../..//Java_bootcamp/calculator_java/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +37,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
