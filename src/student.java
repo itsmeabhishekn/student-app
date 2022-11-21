@@ -1,101 +1,44 @@
-import java.util.ArrayList;
 import java.util.Scanner;
-
-public class student {
+import java.util.ArrayList;
+class student{
 
     String name;
-    int adminNo;
-    String collegeName;
-    int rollNo;
+    int adm_no;
+    int roll_no;
+    String college;
 
-    public student(String name, int adminNo, String collegeName, int rollNo) {
-        this.name = name;
-        this.adminNo = adminNo;
-        this.collegeName = collegeName;
-        this.rollNo = rollNo;
+    student(String name,int adm_no,int roll_no,String college){
+        this.name=name;
+        this.adm_no = adm_no;
+        this.roll_no = roll_no;
+        this.college = college;
     }
 
-    public String getName() {
-        return name;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAdminNo() {
-        return adminNo;
-    }
-
-    public void setAdminNo(int adminNo) {
-        this.adminNo = adminNo;
-    }
-
-    public String getCollegeName() {
-        return collegeName;
-    }
-
-    public void setCollegeName(String collegeName) {
-        this.collegeName = collegeName;
-    }
-
-    public int getRollNo() {
-        return rollNo;
-    }
-
-    public void setRollNo(int rollNo) {
-        this.rollNo = rollNo;
-    }
 
     public static void main(String[] args) {
 
-        ArrayList<student> studnt=new ArrayList<student>();
+        Scanner sc = new Scanner(System.in);
+
+        ArrayList<student> stud_list = new ArrayList<student>();
+
+        while(true){
+            System.out.println("Student");
+            System.out.println("-------------");
+            System.out.println();
+            System.out.println("1:Add Student");
+            System.out.println("2:View Student");
+            System.out.println("3:Search Student");
+            System.out.println("4:Delete Student");
+            System.out.println("5:Exit");
+            System.out.println();
+            System.out.println("-------------");
 
 
-        int exit =0;
-        while(exit!=1)
-        {
-            System.out.println("1:add student\n2:list student\n3:search student\n4:delete student\n");
-            System.out.println("Enter your choice:");
+            int choice=sc.nextInt();
 
-            Scanner sc=new Scanner(System.in);
-            int ch= sc.nextInt();
-
-
-            switch (ch)
-            {
-                case 1:
-                    System.out.println("add student");
-
-                    break;
-
-                case 2:
-                    System.out.println("list student");
-
-                    break;
-
-                case 3:
-                    System.out.println("search student");
-
-                    break;
-
-
-                case 4:
-                    System.out.println("delete student");
-
-                    break;
-
-                case 5:
-                    exit=1;
-                    break;
-
-                default:
-                    System.out.println("wrong choice\n");
 
             }
-
-            System.out.println("Enter 1 to exit\n0 to continue\n");
-            exit=sc.nextInt();
         }
 
     }
